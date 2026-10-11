@@ -1,0 +1,18 @@
+{
+    "cmake.configurePreset": "debug",
+    "cmake.buildPreset": "debug",
+    "cmake.configureOnOpen": true,
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build/clang-debug"
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    }
+}
